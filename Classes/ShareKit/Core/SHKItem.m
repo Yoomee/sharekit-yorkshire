@@ -35,6 +35,7 @@
 @property (nonatomic, retain) NSMutableDictionary *custom;
 
 - (NSString *)shareTypeToString:(SHKShareType)shareType;
+- (void)setExtensionPropertiesDefaultValues;
 
 @end
 
